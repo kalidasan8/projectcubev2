@@ -1,0 +1,114 @@
+{
+    "user": [
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Newly Renovated",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "4",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2200"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "High Class",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "2",
+            "bathroom": "1",
+            "square": "1700",
+            "price": "1100"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "New room with balcony",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "3",
+            "bathroom": "2",
+            "square": "1800",
+            "price": "2000"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Old one",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "4",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2100"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Newly build",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "3",
+            "bathroom": "3",
+            "square": "1500",
+            "price": "2000"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Newly Renovated",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "5",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2400"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Newly Renovated",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "5",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2400"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Newly Renovated",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "5",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2400"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Super View",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "5",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2400"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Hotel premium",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "5",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2400"
+        },
+        {
+            "img": "./image/tenantimg.jpeg",
+            "card": "Premium hotel",
+            "text": "Appartment",
+            "street": "#11-232,100 Young Street, Victoria, AU",
+            "bedroom": "5",
+            "bathroom": "3",
+            "square": "1600",
+            "price": "2400"
+        }
+    ]
+}
