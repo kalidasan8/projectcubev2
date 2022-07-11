@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch https://github.com/kalidasan8/fakejson/db.json"
+    "start": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "",
