@@ -60,7 +60,7 @@ let postCount = 1;
 
 //code for json local server
 const getPost = async () => {
-  const response = await fetch(`http://localhost:3000/user?_limit=${limit}$_page=${pageCount}`)
+  const response = await fetch(`https://fakejsonkali.herokuapp.com/user?_limit=${limit}$_page=${pageCount}`)
     .then(res => res.json())
     .then(json => {
       json.map(data => {
