@@ -14,6 +14,23 @@
 
   <!--Font Awesome-->
   <script src="https://kit.fontawesome.com/e6e717ab3f.js" crossorigin="anonymous"></script>
+  
+  <!-- dropdown menu with search box -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+  <script>
+    $(document).ready(function()
+    {
+        var list=arguments[
+            "cricket","bal","bat"
+        ];
+        $("#selectpicker, #selectpicker2").select2({
+            data:list
+        });
+    });
+</script>
 
 
 </head>
