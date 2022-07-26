@@ -1,51 +1,51 @@
 
 
 //JS code for dropdown menu
-const dropdowns = document.querySelectorAll('.dropdown');
+// const dropdowns = document.querySelectorAll('.dropdown');
 
 
 
-dropdowns.forEach(dropdown => {
-  const select = dropdown.querySelector('.select');
-  const caret = dropdown.querySelector('.caret');
-  const menu = dropdown.querySelector('.menu');
-  const options = dropdown.querySelectorAll('.menu li');
-  const selected = dropdown.querySelector('.selected');
+// dropdowns.forEach(dropdown => {
+//   const select = dropdown.querySelector('.select');
+//   const caret = dropdown.querySelector('.caret');
+//   const menu = dropdown.querySelector('.menu');
+//   const options = dropdown.querySelectorAll('.menu li');
+//   const selected = dropdown.querySelector('.selected');
   
 
-  select.addEventListener('click',()=>{
-    select.classList.toggle('select-clicked');
-    caret.classList.toggle('caret-rotate');
-    menu.classList.toggle('menu-open');
-  });
+//   select.addEventListener('click',()=>{
+//     select.classList.toggle('select-clicked');
+//     caret.classList.toggle('caret-rotate');
+//     menu.classList.toggle('menu-open');
+//   });
 
-  options.forEach(option =>{
-    option.addEventListener('click',()=>{
-      selected.innerText = option.innerText;
-      select.classList.remove('select-clicked');
-      caret.classList.remove('caret-rotate');
-      menu.classList.remove('menu-open');
-      options.forEach(option => {
-        option.classList.remove('active');
-      });
-      option.classList.add('active');
-    });
-  });
-});
+//   options.forEach(option =>{
+//     option.addEventListener('click',()=>{
+//       selected.innerText = option.innerText;
+//       select.classList.remove('select-clicked');
+//       caret.classList.remove('caret-rotate');
+//       menu.classList.remove('menu-open');
+//       options.forEach(option => {
+//         option.classList.remove('active');
+//       });
+//       option.classList.add('active');
+//     });
+//   });
+// });
 
-// JS code for Close dropdown menu while mouse pointer click outside of dropdown menu
-window.onclick = function(event){
-  if(!event.target.matches('.select')){
-    var dd = document.getElementsByClassName('menu');
+// // JS code for Close dropdown menu while mouse pointer click outside of dropdown menu
+// window.onclick = function(event){
+//   if(!event.target.matches('.select')){
+//     var dd = document.getElementsByClassName('menu');
 
-    for(var i=0; i<dd.length; i++){
-      var x=dd[i];
-      if(x.classList.contains('menu-open')){
-        x.classList.remove('menu-open')
-      }
-    }
-  }
-}
+//     for(var i=0; i<dd.length; i++){
+//       var x=dd[i];
+//       if(x.classList.contains('menu-open')){
+//         x.classList.remove('menu-open')
+//       }
+//     }
+//   }
+// }
 
 
 //JS code for dropdown menu end...........
