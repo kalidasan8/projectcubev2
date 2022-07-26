@@ -125,7 +125,7 @@ legend{
   padding: 1em;
   cursor: pointer;
   transition: background 0.3s;
-	
+  
 }
 
 /* .select-clicked{
@@ -133,7 +133,7 @@ legend{
   box-shadow: 0 0 0.8em #26489a;
 } */
 
-.caret {
+/* .caret {
   width: 0;
   height: 0;
   border-right: 5px solid transparent;
@@ -144,9 +144,9 @@ legend{
 
 .caret-rotate{
   transform: rotate(180deg);
-}
+} */
 
-.menu{
+/* .menu{
   list-style: none;
   padding: 0.2em 0.5em;
   border: 1px solid;
@@ -175,7 +175,7 @@ legend{
 
 .menu li:hover{
   background: #a3a4a5;
-}
+} */
 
 /* .active{
   background: #23242a;
