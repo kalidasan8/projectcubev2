@@ -42,6 +42,14 @@ window.addEventListener('scroll', () => {
 })
 
 
+document.documentElement.addEventListener('touchmove', () => {
+  const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
+
+  if (scrollTop + clientHeight >= scrollHeight) {
+    showData();
+  }
+})
+
 
 // window.addEventListener('touchmove', () => {
 //   const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
