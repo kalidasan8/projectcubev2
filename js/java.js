@@ -43,11 +43,10 @@ window.addEventListener('scroll', () => {
 
 
 window.addEventListener('touchmove', () => {
-  const { scrollHeight, scrollTop, innerHeight } = document.documentElement;
+  const { scrollHeight, scrollTop, innerHeight, clientHeight } = document.documentElement;
 
-  if (scrollTop + innerHeight >= scrollHeight) {
-    track_page++
-    showData(track_page++);
+  if (scrollTop + innerHeight + clientHeight  >= scrollHeight) {
+    showData();
   }
 })
 
