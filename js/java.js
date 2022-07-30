@@ -33,13 +33,25 @@ const showData = () => {
   }, 1000)
 };
 
-window.addEventListener('scroll', () => {
-  const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
+// window.addEventListener('scroll', () => {
+//   const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
 
-  if (scrollTop + clientHeight >= scrollHeight) {
-    showData();
-  }
-})
+//   if (scrollTop + clientHeight >= scrollHeight) {
+//     showData();
+//   }
+// })
+
+window.addEventListener('touchmove', onScroll); // for mobile
+window.addEventListener('scroll', onScroll);
+
+// callback
+function onScroll(){ 
+  const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
+    if(scrollTop + clientHeight >= scrollHeight) { 
+       
+        showData(); 
+    }
+}
 
 
 // window.addEventListener('touchmove', () => {
