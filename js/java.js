@@ -49,13 +49,6 @@ window.addEventListener('scroll', () => {
 //   }
 // })
 
-$(document.body).on('touchmove', onScroll);
-function onScroll(){ 
-    if( $(window).scrollTop() + window.innerHeight >= document.body.scrollHeight ) { 
-        track_page++; 
-        showData(track_page); 
-    }
-}
 
 
 // Code create new element using div
