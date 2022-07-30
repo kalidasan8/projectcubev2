@@ -41,6 +41,7 @@ window.addEventListener('scroll', () => {
   }
 })
 
+
 // window.addEventListener('touchmove', () => {
 //   const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
 
