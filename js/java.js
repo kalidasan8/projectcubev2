@@ -41,13 +41,21 @@ window.addEventListener('scroll', () => {
   }
 })
 
-window.addEventListener('touchend', () => {
-  const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
+// window.addEventListener('touchmove', () => {
+//   const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
 
-  if (scrollTop + clientHeight >= scrollHeight) {
-    showData();
-  }
-})
+//   if (scrollTop + clientHeight >= scrollHeight) {
+//     showData();
+//   }
+// })
+
+$(document.body).on('touchmove', onScroll);
+function onScroll(){ 
+    if( $(window).scrollTop() + window.innerHeight >= document.body.scrollHeight ) { 
+        track_page++; 
+        showData(track_page); 
+    }
+}
 
 
 // Code create new element using div
